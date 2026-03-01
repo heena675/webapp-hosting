@@ -46,6 +46,7 @@ jobs:
         with:
           app-name: 'heenawebapp'
           slot-name: 'Production'
-          package: .
+          package: ./webapp-hosting
 
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DD42ACEF080348B1B161D52F4CCA2AAB }}
+
